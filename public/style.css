@@ -24,7 +24,7 @@ html, body {
   position:fixed;               ! Position des Logos ist fest;
   top:0;                            ! Position oben;
   left:0;                            ! Position ganz links;
-  border: 0px solid #ccc; ! darkred und -darkred;
+  border: 0px solid #ccc; ! darkred und darkred;
   background-image:url("logo polska.png");
   background-repeat:darkred; 
   background-size: cover;    
