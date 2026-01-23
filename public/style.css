@@ -2,7 +2,7 @@
 /*  Übergreifend / Body                              */
 /*  -----------------------------------------        */
 html, body {
- background-image:url(../hintergrund.jpg); !Hintergrundbild verwenden;
+ background-image:url(hintergrund.png); !Hintergrundbild verwenden;
  background-repeat:no-repeat; !Hintergrundbild wird nicht wiederholt;
  background-size: cover;      !Parallax-Effekt - Hintergundbild ist bildschirmfüllend;
  overflow:hidden;             !Alle Body-Scrollbalken verstecken;
@@ -14,10 +14,24 @@ html, body {
   top:0;                     ! Position oben;
   left:0;                    ! Position ganz links;
   border: 1px solid #ccc;    ! Rahmenart und -farbe;
-  background-color:green;    ! Hintergrundfarbe;
+  background-color:darkred;    ! Hintergrundfarbe;
   width:100%;                ! Breite des Kopfbereichs;
   height:100px;              ! Höhe des Kopfbereichs;
   z-index:2;                 ! Kopfbereich überlagert andere Bereiche;                
+}
+
+#logobereich {
+  position:fixed;               ! Position des Logos ist fest;
+  top:0;                            ! Position oben;
+  left:0;                            ! Position ganz links;
+  border: 0px solid #ccc; ! darkred und -darkred;
+  background-image:url("logo polska.png");
+  background-repeat:darkred; 
+  background-size: cover;    
+  background-color:darkred;    ! Hintergrundfarbe;
+  width:200px;                 ! Breite des Kopfbereichs;
+  height:100px;                ! Höhe des Kopfbereichs; 
+  z-index:3;                      ! Logo überlagert andere Bereiche;                
 }
 
 #navibereich {
@@ -25,7 +39,7 @@ html, body {
   top: 100px;                ! Position unterhalb des Kopfbereiches;
   left:0;                    ! Position ganz links;
   border: 1px solid #ccc;    ! Rahmenart und -farbe;
-  background-color:red;      ! Hintergrundfarbe;
+  background-color:darkred;      ! Hintergrundfarbe;
   width:200px;               ! Breite des Navibereichs;
   min-height:300px;          ! Minimal-Höhe des Navibereichs;
   z-index:2;                 ! Navibereich überlagert andere Bereiche;
@@ -52,7 +66,7 @@ html, body {
   right:0px;                 ! Rechtsausrichtung;
   top: 100px;                ! Position unterhalb des Kopfbereiches;
   border: 1px solid #ccc;    ! Rahmenart und -farbe;
-  background-color:yellow;   ! Hintergrundfarbe;
+  background-color:darkred;   ! Hintergrundfarbe;
   width:200px;               ! Breite des Newsbereichs;
   min-height:300px;          ! Minimal-Höhe des Newsbereichs;
   z-index:2;                 ! Newsbereich überlagert andere Bereiche;
@@ -65,7 +79,7 @@ html, body {
  left:0;                      ! Position ganz links;
  border: 1px solid #ccc;      ! Rahmenart und -farbe;
  width: 100%;                 ! Breite des Fussbereichs;
- background-color: blue;      ! Hintergrundfarbe;
+ background-color:darkred ;      ! Hintergrundfarbe;
  height:50px;                 ! Höhe des Fußbereichs;
  z-index:2;                   ! Fußbereich überlagert andere Bereiche;  
 } 
