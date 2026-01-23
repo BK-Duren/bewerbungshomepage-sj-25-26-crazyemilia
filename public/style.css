@@ -28,7 +28,7 @@ html, body {
   background-image:url("logo polska.png");
   background-repeat:darkred; 
   background-size: cover;    
-  background-color:darkred;    ! Hintergrundfarbe;
+  background-color:darkred;    ! Hintergrundfarbe; 
   width:200px;                 ! Breite des Kopfbereichs;
   height:100px;                ! Höhe des Kopfbereichs; 
   z-index:3;                      ! Logo überlagert andere Bereiche;                
