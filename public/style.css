@@ -17,7 +17,14 @@ html, body {
   background-color:darkred;    ! Hintergrundfarbe;
   width:100%;                ! Breite des Kopfbereichs;
   height:100px;              ! Höhe des Kopfbereichs;
-  z-index:2;                 ! Kopfbereich überlagert andere Bereiche;                
+  z-index:2;                 ! Kopfbereich überlagert andere Bereiche;        
+
+}
+.header-title {
+font-family:‘Montserrat’, sans-serif;   ! Festlegung der Schriftart;
+font-size:24pt;				! Festlegung des Schriftgröße;
+font-weight:700;			! Festlegung des Fettschrift, hier können Sie auch bold angeben;
+text-align:center;			! Schriftausrichtung, möglich ist left | center | right;
 }
 
 #logobereich {
