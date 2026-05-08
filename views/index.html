@@ -51,16 +51,24 @@
       HIER KOMMEN SPÄTER DIE INHALTE HIN
     </div><!-- Ende content-block -->
   </div><!-- Ende textbereich -->
-  <div id="newsbereich">
- <div class = ”teaser”>
-  <p class = ”teaser_date”>News-Datum</p>
- <p class = ”teaser_title”>News-Titel</p>
-  <p class = ”teaser_text”>Dies ist der News-Text</p>
- <a href = ”berufsbildung.html” class=“teaser_link“>...mehr</a>
- <hr class=“teaser_border“>
-  </div>
-  <div <!-- Ende newsbereich -->
-   <div id="fussbereich"></div>
-  <!-- Ende fussbereich -->
-</body>
+
+    <div id="newsbereich">
+    <div id="fussbereich"></div> <!-- Ende fussbereich -->
+       <script>
+    $( window ).on( "load", function() { 
+       load_content('navibereich', 'content-navi.html');
+       load_content('newsbereich', 'content-news.html');
+       load_content('fussbereich', 'content-footer.html');
+       load_content('kopfbereich', 'content-header.html');
+    });
+  </script>
+       <div class = ”teaser”>
+           <p class = ”teaser_date”>08.05.2026</p>
+           <p class = ”teaser_title”>Eine neue News</p>
+           <p class = ”teaser_text”>klick hier </p>
+           <a href = https://www.farb-tabelle.de" class=“teaser_link“>...mehr</a>
+           <hr class=“teaser_border“>
+    </div>
+    <div <!-- Ende newsbereich -->
+ </body>
 </html>
