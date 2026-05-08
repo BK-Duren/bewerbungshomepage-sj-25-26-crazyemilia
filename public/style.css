@@ -37,7 +37,7 @@ text-align:center;			! Schriftausrichtung, möglich ist left | center | right;
   background-size: cover;    
   background-color:darkred;    ! Hintergrundfarbe; 
   width:200px;                 ! Breite des Kopfbereichs;
-  height:100px;                ! Höhe des Kopfbereichs; 
+  height: 100px;                ! Höhe des Kopfbereichs; 
   z-index:3;                      ! Logo überlagert andere Bereiche;                
 }
 
