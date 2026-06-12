@@ -105,7 +105,7 @@ font-family: Garamond, Verdana, Geneva, Lucida, Avantgarde, Arial; ! Festlegung 
 font-style:normal;                                                 ! Festlegung des Schrifttyps;
 font: size 15px;pt;                                                    ! Festlegung des Schriftgröße;
 font-weight:normal;                                                ! Festlegung der Fettschrift;
-color:#000000;                                                     ! Festlegung des Schriftfarbe;
+color:#FFFFFF;                                                     ! Festlegung des Schriftfarbe;
 }
 .title {
 font-size:12pt;                                                    ! Festlegung des Schriftgröße;
@@ -121,7 +121,7 @@ font-weight:bold;                                                  ! Festlegung 
   	text-transform:uppercase;	! Verwende Großbuchstaben;
 font-size:90%;            	! Festlegung des Schriftgröße;
 	font-weight:700;		      ! Festlegung Fettschrift für Montserrat;
-	color: rgb(0,0,0);		! Festlegung des Schriftfarbe (schwarz);
+	color: rgb(255,255,255);		! Festlegung des Schriftfarbe (schwarz);
 	display: block;			! Art der Anzeige als Blockelement;
 	transition: all 0.3s ease-out 0s; ! Definition Übergang von Normal zu Hover;
 	text-decoration:none;		! Keinen Unterstrich unterhalb des Menütitels;
